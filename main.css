@@ -1,0 +1,423 @@
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: Montserrat_Regular;
+    src: url(./Montserrat/static/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat_Medium;
+    src: url(./Montserrat/static/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: Montserrat_Semibold;
+    src: url(./Montserrat/static/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat_Bold;
+    src: url(./Montserrat/static/Montserrat-Bold.ttf);
+}
+
+.wrapper {
+    max-width: 1920px;
+    margin: auto;
+    padding: 1% 10%;
+}
+
+                  /* header */
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1920px;
+    margin: auto;
+    transition: 0.3s;
+    font-family: Montserrat_Regular;
+    font-size: 18px;
+}
+
+header .container img {
+    width: 100px;
+}
+
+header .container nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.3s;
+}
+
+header .container nav a {
+    text-decoration: none;
+    
+    padding: 10px;
+    margin: 0 10px 0 0;
+    width: 115px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+header .container p {
+    color: #A52424;
+}
+
+                /* .presentation */
+
+main .presentation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .presentation .item_1 {
+    padding-bottom: 20px;
+}
+
+main .presentation .item_1 h1 {
+    font-family: Montserrat_Bold;
+    font-size: 72px;
+    margin: 3% 2%;
+}
+
+main .presentation .item_1 h3 {
+    font-family: Montserrat_Semibold;
+    font-size: 22px;
+    margin-bottom: 10%;
+}
+
+main .presentation .item_1 a {
+    font-family: Montserrat_Medium;
+    font-size: 18px;
+    text-decoration: none;
+    color: #A52424;
+    padding: 10px 30px;
+    border: 1px solid #A52424;
+}
+
+                  /* abouT_me */
+
+main h2 {
+    font-family: Montserrat_Bold;
+    font-size: 64px;
+}
+
+main .about_me .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .about_me .left_square {
+    width: 377px;
+    height: 560px;
+    box-shadow: 1px 1px 5px black;
+    position: relative;
+    margin-right: 5%;
+    
+}
+
+main .about_me .left_square .contant {
+    
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+
+main .about_me h3 {
+    font-family: Montserrat_Semibold;
+    font-size: 22px;
+    color: #A52424;
+}
+
+main .about_me .container .right_square p {
+    font-family: Montserrat_Regular;
+    font-size: 18px;
+}
+
+main .about_me .container .right_square {
+    white-space: pre-line;
+    width: 60%;
+}
+
+
+main .about_me .container .right_square .square img {
+    width: 100%;
+}
+
+                    /* portfolio */
+
+main .portfolio h2 {
+    font-family: Montserrat_Bold;
+    font-size: 64px;
+    color: #232323;
+}
+
+main .portfolio .cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+main .portfolio .cards .card {
+    width: 30%;
+}
+
+main .portfolio .cards .card img {
+    width: 100%;
+}
+
+main .portfolio .cards h3 {
+    font-family: Montserrat_Semibold;
+    font-size: 22px;
+    color: #101010;
+}
+
+main .portfolio .cards p {
+    white-space: pre-line;
+    font-family: Montserrat_Regular;
+    font-size: 18px;
+    color: #101010;
+}
+
+main .portfolio .cards a {
+    text-decoration: none;
+    color: #A52424;
+    font-family: Montserrat_Medium;
+    font-size: 18px;
+    padding: 10px 30px;
+    border: 1px solid #A52424;
+}
+
+            /* prices */
+
+main .prices h2 {
+    font-family: Montserrat_Bold;
+    font-size: 64px;
+    color: #232323;
+    margin-bottom: 200px;
+}
+
+main .prices .white_squares {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .prices .white_squares .square {
+    width: 510px;
+    height: 467px;
+    box-shadow: 1px 1px 3px black;
+    box-sizing: border-box;
+    padding-top: 150px;
+    position: relative;
+}
+
+main .prices .white_squares .square img {
+    position: absolute;
+    top: -20%;
+    left: 20%;
+}
+
+main .prices .white_squares h3 {
+    text-align: center;
+    font-family: Montserrat_Semibold;
+    font-size: 22px;
+    color: #A52424;
+}
+
+main .prices .white_squares .sides {
+    display: flex;
+    justify-content: center;
+}
+
+main .prices .white_squares .sides .left {
+    font-family: Montserrat_Regular;
+    font-size: 18px;
+    text-align: left;
+}
+
+main .prices .white_squares .sides .right {
+    font-family: Montserrat_Semibold;
+    font-size: 18px;
+    text-align: right; 
+}
+
+main .prices .white_squares .price {
+    font-family: Montserrat_Semibold;
+    font-size: 36px;
+    color: #A52424;
+    margin: 0;
+}
+
+main .prices .white_squares a {
+    text-decoration: none;
+    font-family: Montserrat_Medium;
+    font-size: 18px;
+    color: #A52424;
+    border: 1px solid #A52424;
+    padding: 10px 30px;
+}
+                    /* 5 */
+main .section5 {
+    margin-bottom: 100px;
+}
+
+main .section5 h2 {
+    font-family: Montserrat_Bold;
+    font-size: 64px;
+    color: #232323;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+main .section5 .appointment {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .section5 .appointment .two_foto {
+    position: relative;
+}
+
+main .section5 .appointment .picture2 {
+    position: absolute;
+    top: -10%;
+    left: 80%;
+}
+
+main .section5 form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .section5 form .text {
+    width: 476px;
+    height: 60px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+}
+
+main .section5 form .textarea {
+    width: 476px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+}
+
+main .section5 .appointment form .submit {
+    background-color: white;
+    color: #A52424;
+    width: 476px;
+    height: 60px;
+    font-family: Montserrat_Medium;
+    font-size: 24px;
+}
+/* f */
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    font-family: Montserrat_Semibold;
+    font-size: 22px;
+    color: #A52424;
+}
+
+
+@media (max-width: 1400px) {
+    main .about_me .container {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    main .about_me .container .right_square {
+        width: 100%;
+    }
+
+    .section5 .appointment {
+        flex-direction: column;
+    }
+
+    main .section5 .appointment .two_foto {
+        /* width: 100%; */
+        position: relative;
+        /* margin-left: 150px; */
+        margin-bottom: 8%;
+    }
+
+    main .section5 .appointment .picture2 {
+        position: absolute;
+        top: -10%;
+        left: 25%;
+    }
+
+    
+}
+
+@media (max-width: 1100px) {
+    main .presentation {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .prices .white_squares {
+        flex-direction: column;
+    }
+
+    .prices .white_squares .square {
+        margin-bottom: 20%;
+    }
+ 
+}
+
+@media (max-width: 820px) {
+    header .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .container img {
+        width: 70px;
+    }
+
+    header .container nav {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+}
+
+@media (max-width: 700px) {
+    main .portfolio .cards {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        
+    }
+    
+    main .portfolio .cards .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 590px) {
+
+    header .container nav {
+        flex-direction: column;
+    }
+
+    header .container nav a {
+        width: 100%;
+        margin: 10px;
+    }
+}
